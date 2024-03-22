@@ -1,0 +1,50 @@
+.s-header{
+    background: #0d36c6;
+    padding: 1rem;
+}
+.header-menu-mobile{
+  display: none;
+  color: #fff;
+  }
+.header-menu {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-menu li, a{
+    color: #ffff;
+    cursor: pointer;
+  }
+ 
+  .header-menu-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .btn-especialista{
+    padding: 15px;
+    border: solid 1px; color:#ffff;
+    border-radius: 4px;
+  }
+  .btn-especialista:hover{
+    background: #fff;
+    color: #0d36c6;
+  }
+  @media (max-width: 1120px){
+    .header-menu{
+      gap: 20px;
+    }
+  }
+  @media(max-width:850px){
+.nav{
+  display: none;
+}
+.header-menu{
+  display: none;
+}
+.header-menu-mobile{
+  display: block;
+}
+  }

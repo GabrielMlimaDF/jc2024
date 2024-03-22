@@ -1,0 +1,56 @@
+:root {
+  --color-default: #20242c;
+}
+:root {
+  --line-height-default: 28px;
+}
+body {
+  font-family: "Inter";
+  margin: 0px;
+  background: #fff;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+  line-height: var(--line-height-default);
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+a {
+  all: unset;
+}
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 5rem 1rem;
+}
+.s-container {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 1.4rem 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+h2 {
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--color-default);
+}
